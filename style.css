@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box; 
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+  min-width: 500px;
+  background: #f2f2f2;
+}
+@media screen and (max-width: 575px) {
+	#cosas{
+		flex-direction: column;
+        flex-flow: column;
+	}
+}
+#nombrepersonaje{
+	align-items: center;
+}
+#textopersonaje{
+	align-items: center;
+	font-size: 20px;
+}
+
+#contenedor{
+	background-color: #10b9ff;
+	height: 18vh;
+	display: flex;
+	flex-direction: row;
+	border: outset;
+	border-color: black;
+	border-width: 5px;
+	
+}
+#titulo{
+	margin-left: 20px;
+	margin-right: 30px;
+	margin-top: 50px;
+}
+#textoContenedor{
+	font-size: 36px;
+	margin-top: 50px;
+	margin-right: 50px;
+}
+#personaje{
+    font-size: 32px;
+    border: solid;
+    border-color: black;
+    align-items: center;
+    background-color: white;
+}
+#contenedorPersonaje{
+	display: flex;
+	flex-direction: column;
+}
