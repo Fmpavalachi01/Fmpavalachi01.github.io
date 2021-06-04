@@ -237,5 +237,26 @@
     	width: 174px;
         height: 155px;
     }
+    .nombre{
+    font-size: 20px;
+    }
+    .links{
+    font-size: 16px;
+    }
+    .nombrePortada{
+    font-size: 30px;
+    }
+    .descPortada{
+    font-size: 20px;
+    }
+    .texto{
+    font-size: 16px;
+    }
+    .email{
+    font-size: 16px;
+    }
+    .textoPie{
+    font-size: 16px;
+    }
 }
 
