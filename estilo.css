@@ -204,6 +204,8 @@
     }
     .contactos{
     	padding-bottom: 30px;
+    	display: flex;
+    	flex-direction: column;
     }
     .imgProyectos{
     	width: 224px;
