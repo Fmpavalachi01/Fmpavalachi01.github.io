@@ -212,7 +212,7 @@
         height: 205px;
     }
 }
-@media (min-width: 320px) and (max-width: 480px){
+@media (max-width: 480px){
     .barraNavegador{
     	display: flex;
     	flex-direction: column;
