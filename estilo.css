@@ -187,6 +187,27 @@
     	display: flex;
     	flex-direction: column;
     }
+    .nombre{
+    font-size: 20px;
+    }
+    .links{
+    font-size: 16px;
+    }
+    .nombrePortada{
+    font-size: 30px;
+    }
+    .descPortada{
+    font-size: 20px;
+    }
+    .texto{
+    font-size: 16px;
+    }
+    .email{
+    font-size: 16px;
+    }
+    .textoPie{
+    font-size: 16px;
+    }
 }
 @media (min-width: 481px) and (max-width: 767px){
 	.barraNavegador{
@@ -212,6 +233,27 @@
     .imgProyectos{
     	width: 224px;
         height: 205px;
+    }
+    .nombre{
+    font-size: 20px;
+    }
+    .links{
+    font-size: 16px;
+    }
+    .nombrePortada{
+    font-size: 30px;
+    }
+    .descPortada{
+    font-size: 20px;
+    }
+    .texto{
+    font-size: 16px;
+    }
+    .email{
+    font-size: 16px;
+    }
+    .textoPie{
+    font-size: 16px;
     }
 }
 @media (max-width: 480px){
