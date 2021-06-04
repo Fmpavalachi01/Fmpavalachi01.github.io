@@ -1,24 +1,85 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>
-		API FLORIAN
-	</title>
+	<title>Mi Portfolio</title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1"></head>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script type="text/javascript" src="script.js" defer></script>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-  <div id="contenedor">
-  	<h1 id="titulo">GenshinApiFlorian</h1>
-  	<p id="textoContenedor">Elementos</p>
-  	<p id="textoContenedor">Armas</p>
-  	<p id="textoContenedor">Personajes</p>
-  	<select onchange="filtrarPorPersonaje()" id="personaje"></select>
-  </div>
-  <div id="contenedorPersonaje">
-    	
-  </div>
+    <header>
+        <nav class="barraNavegador">
+    	    <div class="nombre">
+    		    |-Florian_Marian_Pavalachi-|
+    	    </div>
+    	    <ul class="links">
+    		    <li class="linkItems">
+    			    <a class="conexion" href="/#sobreMi">Sobre mí</a>
+    		    </li>
+    		    <li class="linkItems">
+    			    <a class="conexion" href="/#proyectos">Proyectos</a>
+    		    </li>
+    		    <li class="linkItems">
+    			    <a class="conexion" href="/#habilidades">Habilidades</a>
+    		    </li>
+    		    <li class="linkItems">
+    			    <a class="conexion" href="/#contactos">Contacto</a>
+    		    </li>
+    	    </ul>
+        </nav>
+    </header>
+    <div class="portada">
+    	<h1 class="nombrePortada">¡Buenas! Soy Florian</h1>
+    	<h2 class="descPortada">Estudiante de 1º DAM</h2>
+    </div>
+    <div class="sobreMi">
+    	<div class="aboutMe">
+    	    <h3 class="titulo">Sobre mí</h3>
+    	    <p class="texto">¡Buenas! Me llamo Florian Marian Pavalachi y actualmente soy estudiante en el IES Arroyo Harnina, en el primer curso de desarrollo de aplicaciones multiplataforma (DAM)</p>
+    	    <p class="texto">Actualmente estoy estudiando Java como lenguaje de programación, MySQL, HTML, XML y JavaScript como técnicas para desenvolverme en un futuro trabajo</p>
+    	    <p class="texto">Me defino como una persona muy ambiciosa cuando algo le resulta interesante, que le gusta mucho avanzar y garantizar el mayor éxito posible en lo que sea que haga</p>
+    	</div>
+    	<div class="hobbies">
+    		<h3 class="titulo">Hobbies</h3>
+    		<div class="logosHobbies">
+    			<img class="logo1" src="./media/logos/joystick.png" alt="Videojuegos" title="Videojuegos">
+    			<img class="logo1" src="./media/logos/headphones.png" alt="Música" title="Música">
+    			<img class="logo1" src="./media/logos/sport.png" alt="Deportes" title="Deportes">
+    			<img class="logo1" src="./media/logos/film-roll.png" alt="Ver Películas" title="Ver Películas">
+    		</div>
+    	</div>
+    </div>
+    <div class="proyectos">
+    	<h1 class="proyectosTitulo">Proyectos</h1>
+    	<div class="contenedorProyecto">
+    		<h2 class="textoProyectos">-Homer Simpson</h2>
+    		<a class="linkProyectos" href="https://github.com/Fmpavalachi01/LLMM/tree/main/Homer"><img class="logo1" src="./media/logos/logoGit.png"></a>
+    		<img class="imgProyectos" src="./media/imagenes/Pag1.PNG">
+    	</div>
+    	<div class="contenedorProyecto">
+    		<h2 class="textoProyectos">-Iconos en pantalla</h2>   		
+    		<a class="linkProyectos" href="https://github.com/Fmpavalachi01/LLMM/tree/main/ICONOS%20EN%20PANTALLA%20BOTON"><img class="logo1" src="./media/logos/logoGit.png"></a>
+    		<img class="imgProyectos" src="./media/imagenes/Pag3.PNG">
+    	</div>
+    	<div class="contenedorProyecto">
+    		<h2 class="textoProyectos">-Mi Web</h2>
+    		<a class="linkProyectos" href="https://github.com/Fmpavalachi01/LLMM/tree/main/PáginaWebFlorian"><img class="logo1" src="./media/logos/logoGit.png"></a>
+    		<img class="imgProyectos" src="./media/imagenes/Pag2.PNG">
+    	</div>
+    </div>
+    <footer class="pieDePag">
+    	<div class="textoPie">
+    		<h1>Puedes encontrarme en...</h1>
+    	</div>
+    	<div class="contactos">
+    		<div class="email">
+    			<p class="textoEmail">fmpavalachi01@iesarroyoharnina.es</p>
+    		</div>
+    		<div class="iconos">
+    			<a href="mailto:fmpavalachi01@iesarroyoharnina.es"><img class="logo1" src="./media/logos/email.png" alt="email"></a>
+    			<a href="https://github.com/Fmpavalachi01"><img class="logo1" src="./media/logos/logoGit.png" alt="github"></a>
+    		</div>
+    	</div>
+    </footer>
 </body>
 </html>
